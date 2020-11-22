@@ -56,8 +56,7 @@ public class GoodsInfo {
     private static int[] mPicArray = {
             R.drawable.iphone, R.drawable.xiaomi, R.drawable.oneplus,
             R.drawable.huawei, R.drawable.samsung, R.drawable.sony,
-            R.drawable.r5,R.drawable.r5,R.drawable.laika,R.drawable.jingtou_s
-
+            R.drawable.r5,R.drawable.hasu,R.drawable.laika,R.drawable.jingtou_s
     };
 
     // 获取默认的手机信息列表

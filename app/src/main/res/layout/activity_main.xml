@@ -4,11 +4,8 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".MainActivity">
 
-<include
-    android:id="@+id/include"
-    layout="@layout/activity_shopping_title" />
+tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,4 +22,8 @@ tools:context=".MainActivity">
             android:orientation="vertical"
             android:padding="5dp" />
     </ScrollView>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_shopping_title" />
 </androidx.constraintlayout.widget.ConstraintLayout>
